@@ -20,7 +20,6 @@ body {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    color: white;
 }
 
 .header {
@@ -52,14 +51,17 @@ body {
 
 .widget_blue {
     background: #2F80ED;
+    order: 1;
 }
 
 .widget_red {
     background: #ff4757;
+    order:2;
 }
 
 .title {
     margin: 0;
+    color: white;
 }
 
 .container {
